@@ -40,12 +40,12 @@ pipenv shell
 ```
 ### packages to be Installed on virtualenv
 
-certifi==2019.6.16
-Django==2.1.9
-django-bootstrap4==0.0.7
-djangorestframework==3.9.4
-pipenv==2018.11.26
-pytz==2019.1
+- certifi==2019.6.16
+- Django==2.1.9
+- django-bootstrap4==0.0.7
+- djangorestframework==3.9.4
+- pytz==2019.1
+
 
 ### Configure the settings (connection to the database, connection to an SMTP server, and other options)
 
@@ -53,11 +53,13 @@ pytz==2019.1
 
 2. Edit `source/app/conf/production/settings.py` (For production)
 
+
 ### Apply migrations
 
 ```
 python source/manage.py migrate
 ```
+
 
 ### Collect static files (only on a production server)
 
