@@ -20,6 +20,16 @@ An example of Django project with basic functionality.
 - Change profile
 - Multilingual: English, Russian, and Simplified Chinese
 
+## Screenshots
+
+| Log In | Create an account | Authorized page |
+| -------|--------------|-----------------|
+| <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> | <img src="./screenshots/authorized_page.png" width="200"> |
+
+| Password reset | Set new password | Password change |
+| ---------------|------------------|-----------------|
+| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/set_new_password.png" width="200"> | <img src="./screenshots/password_change.png" width="200"> |
+
 
 ## Installing
 
