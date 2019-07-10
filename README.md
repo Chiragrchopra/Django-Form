@@ -38,15 +38,21 @@ pip install pipenv
 pipenv install
 pipenv shell
 ```
-### packages to be Installed on virtualenv
+### Packages to be Installed on virtualenv
 
-- certifi==2019.6.16
-- Django==2.1.9
-- django-bootstrap4==0.0.7
-- djangorestframework==3.9.4
-- pytz==2019.1
+```
+pip install certifi==2019.6.16
+pip Django==2.1.9
+pip django-bootstrap4==0.0.7
+pip djangorestframework==3.9.4
+pip pytz==2019.1
+```
+or
 
+```
+pip install -r requirements.txt
 
+```
 ### Configure the settings (connection to the database, connection to an SMTP server, and other options)
 
 1. Edit `source/app/conf/development/settings.py` (For development)
