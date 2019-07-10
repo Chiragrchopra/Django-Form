@@ -45,8 +45,9 @@ pip Django==2.1.9
 pip django-bootstrap4==0.0.7
 pip djangorestframework==3.9.4
 pip pytz==2019.1
+
 ```
-    or
+ or
 
 ```
 pip install -r requirements.txt
