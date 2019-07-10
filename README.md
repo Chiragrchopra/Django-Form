@@ -2,14 +2,6 @@
 
 An example of Django project with basic functionality.
 
-## Screenshots
-
-| Log In | Create an account | Authorized page |
-| -------|--------------|-----------------|
-
-| Password reset | Set new password | Password change |
-| ---------------|------------------|-----------------|
-
 ## Functionality
 
 - Log in
